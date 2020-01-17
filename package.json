@@ -1,4 +1,15 @@
 {
+  "name": "github-streak-scraper",
+  "version": "1.0.0",
+  "description": "A scraper which returns your current GitHub streak.",
+  "main": "index.js",
+  "author": "David Barton (theDavidBarton)",
+  "license": "MIT",
+  "repository": "github:theDavidBarton/github-streak",
+  "homepage": "https://github.com/theDavidBarton/github-streak",
+  "engines": {
+    "node": ">=8.16.0"
+  },
   "dependencies": {
     "puppeteer": "^2.0.0",
     "svg-parser": "^2.0.3"
