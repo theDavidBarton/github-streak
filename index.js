@@ -35,7 +35,7 @@ const svgParser = require('svg-parser').parse
 const githubStreakScraper = async userName => {
   try {
     const githubContributionGraph = `https://github.com/users/${userName}/contributions`
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] })
     const page = await browser.newPage()
     await page.goto(githubContributionGraph)
 
