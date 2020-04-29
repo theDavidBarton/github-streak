@@ -1,6 +1,7 @@
 # GitHub Streak Scraper
 
 [![npm package](https://img.shields.io/npm/v/github-streak-scraper.svg)](https://www.npmjs.com/package/github-streak-scraper)
+[![Dependency Status](https://david-dm.org/theDavidBarton/github-streak.svg)](https://david-dm.org/theDavidBarton/github-streak/)
 
 Parses the Contribution graph to count the current streak of a GitHub user.
 
