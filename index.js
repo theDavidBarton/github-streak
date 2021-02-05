@@ -39,8 +39,8 @@ const githubStreakScraper = async userName => {
     const page = await browser.newPage()
     await page.goto(githubContributionGraph)
 
-    const calendarSvg = await page.evaluate(el => el.innerHTML, await page.$('.js-calendar-graph'))
-    const calendarArray = svgParser(calendarSvg).children[0].children[0].children
+    const calendarSvg = await page.evaluate(el => el.innerHTML, await page.$('.js-calendar-graph-svg'))
+    const calendarArray = svgParser(calendarSvg).children[0].children
     await browser.close()
 
     const streakCounter = () => {
