@@ -12,7 +12,7 @@ Wrap `githubStreakScraper('GitHub-user-name')` in an async function/promise.
 ```js
 const getStreakData = async => {
   const githubStreak = await githubStreakScraper('theDavidBarton');
-  console.log(githubStreak)
+  console.log(githubStreak);
 }
 ```
 
